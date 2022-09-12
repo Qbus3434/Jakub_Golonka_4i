@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .image{
+            max-width: 100%;
+            width: 400px;
+            object-fit: cover;
+        }
+
+        .baner{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: black;
+            color: white;
+        }
+        .baner::before{
+            content: '';
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 50%;
+            background-color: gray;
+        }
+
+        .item{
+            position: relative;
+            z-index: 1;
+            width: 300px;
+        }
+        
+        .container{
+            display: flex;
+            margin-top: 30px;
+        }
+        .number{
+            margin-right: 20px;
+            font-size:  2rem;
+        }
+        .link{
+            display: block;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+
+    </style>
+    <title>Flexbox 2 - Zadanie 1 </title>
+</head>
+<body>
+    <section class="baner">
+        <div class="item">
+            <img src="https://cdn.pixabay.com/photo/2020/08/11/12/11/geralt-5479766_960_720.jpg" alt="" class="image">
+            <div class="container">
+                <p class="number">01 /</p>
+                <div class="wrapper">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea ad sunt vitae dolorum deserunt quod, odio quasi aperiam impedit!</p>
+                    <a href="" class='link'>Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://cdn.pixabay.com/photo/2022/08/28/20/30/ciri-7417465_960_720.jpg" alt="" class="image">
+            <div class="container">
+                <p class="number">02 /</p>
+                <div class="wrapper">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea ad sunt vitae dolorum deserunt quod, odio quasi aperiam impedit!</p>
+                    <a href="" class='link'>Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://cdn.pixabay.com/photo/2021/01/11/20/56/yennefer-5909694_960_720.jpg" alt="" class="image">
+            <div class="container">
+                <p class="number">03 /</p>
+                <div class="wrapper">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea ad sunt vitae dolorum deserunt quod, odio quasi aperiam impedit!</p>
+                    <a href="" class='link'>Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
