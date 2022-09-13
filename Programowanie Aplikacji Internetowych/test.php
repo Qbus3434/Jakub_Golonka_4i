@@ -9,7 +9,7 @@
 <body>
     <h1>Pierwsze skrypty w PHP</h1>
     <?php
-        echo 'Hello world!'
+        echo 'Hello world!!'
     ?>
 </body>
 </html>
