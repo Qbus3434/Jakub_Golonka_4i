@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .menu{
+            height: 5vh;
+            width: 100%;
+            background-color: aqua;
+        }
+        .header{
+            height: 10vh;
+            width: 100%;
+            background-color: magenta;
+        }
+        .conteiner{
+            height: 75vh;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .content1{
+            width: 100%;
+            height: 50%;
+            background-color: gray;
+        }
+        .content2{
+            height: 50%;
+            width: 100%;
+            background-color: purple;
+        }
+        .content3{
+            height: 100%;
+            width: 100%;
+            flex-basis: 70%;
+            background-color: yellow;
+        }
+        .footer{
+            height: 5rem;
+            width: 100%;
+            background-color: darkblue;
+        }
+        .div1{
+            flex-basis: 60%;
+        }
+        .div2{
+            flex-basis: 40%;
+        }
+    </style>
+    <title>Flexbox 3 - Zadanie 1</title>
+</head>
+<body>
+    <div class="menu">Menu</div>
+    <div class="header">Header</div>
+    <div class="conteiner">
+        <div class="div1">
+            <div class="content1">Content1</div>
+            <div class="content2">Content2</div>
+        </div>
+        <div class="div2">
+            <div class="content3">Content3</div>
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>
